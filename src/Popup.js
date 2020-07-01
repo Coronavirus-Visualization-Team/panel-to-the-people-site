@@ -6,7 +6,7 @@ class Popup extends Component {
 
     componentDidMount() {
         const popup = typeformEmbed.makePopup(
-            'https://kyguy200617.typeform.com/to/kYbiKeIN',
+            'https://coronavirusvisualizationteam.typeform.com/to/OvemnRuK',
             {
                 mode: 'popup',
                 autoClose: 3000,
