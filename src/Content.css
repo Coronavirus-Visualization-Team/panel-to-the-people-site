@@ -6,7 +6,12 @@
     font-size: 1.4em;
     color: white;
     width: 100%;
-    text-align: center;
+    text-align: left;
+}
+.text h1{
+  font-size: 5em;
+  margin: -15px;
+  padding-left: 25px;
 }
 .text button:hover{
     cursor: pointer;
@@ -27,6 +32,11 @@ body{
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);    
+}
+
+.text p{
+  font-size: 1.4em;
+  padding-left: 25px;
 }
 
 /* Animation */
