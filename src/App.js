@@ -1,17 +1,19 @@
 import React from 'react';
 import './App.css';
-import Content from './Content';
-import background from './Assets/background.png'
-import logo from './Assets/image-2.png'
-import Learn from './Learn_more'
+import Navbar from './Components/Navbar';
+import Welcome from './Components/Welcome';
+import Webinar from './Components/Webinars';
 
 function App() {
   return (
     <div className="App">
-      <img src={logo} alt='' className='pttp' /> 
-      <img src={background} alt='' className='img'/>
-      <Content /> 
-      <Learn></Learn>
+      <Navbar></Navbar>
+      <div className = 'Welcome'>
+     <Welcome id='Welcome'></Welcome>
+     </div>
+     <div className='Webinars'>
+         <Webinar id='Webinar'></Webinar>
+     </div> 
     </div>
   );
 }
