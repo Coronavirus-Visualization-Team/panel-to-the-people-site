@@ -15,7 +15,16 @@
 }
 .Socials{
     padding-top: calc(4vw);
-    float: right;
+    margin: 10px;
+}
+.Facebook{
+    margin: 10px;
+}
+.Twitter{
+    margin: 10px;
+}
+.Instagram{
+    margin: 10px;
 }
 .Logo p{
    color: white;

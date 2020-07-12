@@ -11,10 +11,10 @@ const Footer = () => {
             <img  className ='Logo'src={Logo}></img>
             <p>© COPYRIGHT 2020 Panel to the people, all rights reserved.</p>
             </div>
-            <div className = 'Socials'>
-            <img src={Facebook}></img>
-            <img src={Twitter}></img>
-            <a href='http://instagram.com/paneltothepeople/'><img src={Instagram} /></a>
+            <div className='Socials'>
+            <img src={Facebook} className = 'Facebook'></img>
+            <img className = 'Twitter' src={Twitter}></img>
+            <a href='http://instagram.com/paneltothepeople/'><img className='Instagram' src={Instagram} /></a>
             </div>
         </div>
        
