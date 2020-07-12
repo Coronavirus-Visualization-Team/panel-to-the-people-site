@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
 import Welcome from './Components/Welcome';
-import Webinar from './Components/Webinars';
+import Webinars from './Components/Webinars';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
      <Welcome id='Welcome'></Welcome>
      </div>
      <div className='Webinars'>
-         <Webinar id='Webinar'></Webinar>
+         <Webinars id='Webinars'></Webinars>
      </div> 
+     <Footer id='Footer'></Footer>
     </div>
   );
 }

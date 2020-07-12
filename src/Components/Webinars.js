@@ -1,15 +1,16 @@
 import React from 'react'
-import './Webinar.css'
-
-const Webinar = () => {
+import './Webinars.css'
+import Webinar from './Webinar'
+const Webinars = () => {
     return (
-       <div className ='Cards'>
-          <Webinar></Webinar>
-          <Webinar></Webinar>
-          <Webinar></Webinar>
-         
+       <div className= 'Grid'>
+         <Webinar></Webinar>
+         <Webinar></Webinar>
+         <Webinar></Webinar>
+         <Webinar></Webinar>
+         <Webinar></Webinar>
         </div>
     )
 }
 
-export default Webinar;
+export default Webinars;

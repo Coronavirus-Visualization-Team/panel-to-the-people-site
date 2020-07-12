@@ -38,7 +38,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 2
+                Webinars
               </Link>
             </li>
             <li className="nav-item">
@@ -50,7 +50,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 3
+                Our Team
               </Link>
             </li>
             <li className="nav-item">
@@ -62,19 +62,19 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 4
+                About
               </Link>
             </li>
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section5"
+                to="Footer"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 5
+                Footer
               </Link>
             </li>
           </ul>
