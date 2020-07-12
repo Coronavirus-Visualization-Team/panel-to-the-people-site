@@ -1,7 +1,10 @@
 .Grid{
-display: grid;
-grid-template-columns: repeat(3);
-grid-gap: 1rem;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex-flow: column wrap;
+align-items: flex-start;
+
 }
 .Grid p, h2 {
     color: black;
@@ -9,3 +12,9 @@ grid-gap: 1rem;
     margin: 10px;
 }
 
+.Video{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}

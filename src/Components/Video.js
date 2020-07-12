@@ -4,8 +4,9 @@ import ReactPlayer from 'react-player'
 const Video = (props) => {
   return(
 // Render a YouTube video player
-<ReactPlayer url={props.link}  controls = {true} width = '240px' height = '240px' style = { {display: 'inline', float:'right'}}/>
+<ReactPlayer url={props.link}  controls = {true} width = '240px' height = '240px' style={{float: 'right'}}/>
   )
+  
 
 }
 
